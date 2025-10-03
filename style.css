@@ -1,0 +1,28 @@
+/** COLOR VARIABLES **/
+:root {
+    --bg-color: #eae4d0;
+    --light-orange: #f09300;
+    --dark-orange: #e56a32;
+    --teal: #569fa4;
+    --dark-blue: #355f7e;
+    --green: #8bb753;
+}
+
+
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#hero {
+    background-color: var(--dark-orange);
+    padding: 20px;
+    border-radius: 30px;
+}
