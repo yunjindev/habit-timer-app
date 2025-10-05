@@ -9,7 +9,7 @@ function onClick() {
             seconds++;
             console.log(seconds); // DEBUGGING PURPOSES
             secondsDisplay.textContent = seconds;
-        }, 1000);
+        }, 800);
     }
 }
 
