@@ -27,3 +27,8 @@ function reset() {
     seconds = 0;
     secondsDisplay.textContent = seconds;
 }
+
+function save() {
+    secondsData.push(seconds);
+    console.log(secondsData); // DEBUGGING PURPOSE
+};
