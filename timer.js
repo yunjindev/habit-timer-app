@@ -2,6 +2,7 @@ const button = document.querySelector('button');
 let seconds = 0;
 let timer = null;
 const secondsDisplay = document.querySelector('.seconds h1');
+secondsData= [];
 
 function onClick() {
     if (!timer) {
