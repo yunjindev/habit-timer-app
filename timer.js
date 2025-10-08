@@ -2,7 +2,7 @@ const button = document.querySelector('button');
 let seconds = 0;
 let timer = null;
 const secondsDisplay = document.querySelector('.seconds h1');
-const secondsLog = document.querySelector('.sessions p')
+const secondsLog = document.querySelector('#sessions p')
 secondsData= [];
 
 function onClick() {
@@ -32,4 +32,5 @@ function reset() {
 function save() {
     secondsData.push(seconds);
     console.log(secondsData); // DEBUGGING PURPOSE
+    secondsLog.textContent = secondsData.join(", ");
 };
