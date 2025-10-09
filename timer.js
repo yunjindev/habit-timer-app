@@ -32,5 +32,5 @@ function reset() {
 function save() {
     secondsData.push(seconds);
     console.log(secondsData); // DEBUGGING PURPOSE
-    secondsLog.textContent = secondsData.join(", ");
+    secondsLog.textContent = secondsData.join(" ");
 };
