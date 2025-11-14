@@ -1,4 +1,4 @@
-# HABIT TRACKER APP
+# HABIT TRACKER APP (WIP)
 
 Track how long you do something for. This will help build discipline when attempting to learn/study/do something.
 
